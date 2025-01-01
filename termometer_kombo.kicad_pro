@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -180,7 +180,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.6
+        0.4,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -450,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "termometer_tht.kicad_pro",
+    "filename": "termometer_kombo.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -485,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
